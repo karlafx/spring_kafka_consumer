@@ -1,4 +1,4 @@
-package com.techprimers.kafka.springbootkafkaproducerexample.model;
+package com.techprimers.kafka.springbootkafkaconsumerexample.model;
 
 import java.io.Serializable;
 import java.util.Date;
