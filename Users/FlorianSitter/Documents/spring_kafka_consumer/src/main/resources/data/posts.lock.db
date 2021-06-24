@@ -1,0 +1,6 @@
+#FileLock
+#Thu Jun 24 14:39:18 CEST 2021
+hostName=host.docker.internal
+id=17a3e081b5df48c5d658ea46cb2954d799d21199d87
+method=file
+server=10.0.0.5\:63240
