@@ -7,9 +7,14 @@ import org.springframework.stereotype.Service;
 @Service
 public class KafkaConsumer {
 
+    //@Autowired zu H2
     @KafkaListener(topics = "Kafka_Example", group = "group_id")
     public void consume(String message) {
+        //Statt message hier Posting
         System.out.println("Consumed message: " + message);
+
+        //TODO RESTController in dem Frontend Daten abfragt
+        //REPO.save
     }
 
 

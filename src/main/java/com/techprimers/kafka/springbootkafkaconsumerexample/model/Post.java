@@ -3,6 +3,7 @@ package com.techprimers.kafka.springbootkafkaconsumerexample.model;
 import java.io.Serializable;
 import java.util.Date;
 
+//Hibernate als Entity machen
 public class Post implements Serializable {
 
     private String postingId;
